@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header{
+    
+    background-image: linear-gradient(
+        rgba(17, 16, 16, 0.901), 
+        rgba(9, 9, 9, 0.663)
+      ), url(https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/netflix-india.jpeg?ssl=1);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    
+}
+.netflix-logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgba(229, 9, 20, 1);
+    fill: currentColor;
+    display: block;
+    position: relative;
+    right: 140px;
+    top: 20px;
+}
+.lang-sign-in{
+    display: flex;
+    position: relative;
+    top: 30px;
+    gap: 20px;
+    left: 100px;
+}
+#lang{
+    background-color: rgba(9, 9, 9, 0.663);
+    color: white;
+    font: 900;
+    border: none;
+    font-size: 17px;
+}
+.lang{
+    border: .2px solid white;
+    border-radius: 3px;
+    position: relative;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(22, 22, 22, 0.7);
+}
+.globe{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 6px;
+}
+.sign-in-btn{
+    width: 80px;
+    height: 32px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(229, 9, 20);
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    content: none;
+}
+.page-one-content{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.watch-more{
+    color: white;
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    left: 290px;
+    bottom: 15px;
+}
+.movies-title{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.membership{
+    position: relative;
+    right: 210px;
+    color: white;
+    top: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.875rem;
+}
+.input-submit{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+#email{
+    position: relative;
+    width: 375px;
+    height: 50px;
+    left: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+}
+.label-email{
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    pointer-events: none;
+    font-size: 1rem;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5rem;
+    left: 110px;
+    right: 1rem;
+    top: 1rem;
+}
+.button-arrow{
+    display: flex;
+    position: relative;
+    left: 110px;
+    width: 200px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 0.25rem;
+}
+.button-arrow button{
+    color: white;
+    width: 200px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    font-weight: 700;
+    font-size: 22px;
+}
+.arrow{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    color: white;
+}
+.main-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: black;
+}
+.main-content-items .heading-img-one{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 610px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-content-items .heading-img-two{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    height: 610px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.backgroung-color{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(25, 25, 24);
+}
+.img{
+    width: 500px;
+}
+.img img{
+    width: 100%;
+}
+.heading-img{
+    width: 100%;
+}
+.heading-content{
+    width: 600px;
+    color: white;
+}
+.heading-content h1{
+    font-size: 50px;
+}
+.heading-content p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.faq{
+    height: 105vh;
+    background-color: black;
+    color: white;
+}
+.faq-heading{
+    padding-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.faqs{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    display: flex;
+    gap: 10px;
+}
+.faq-content{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(55, 59, 63, 0.716);
+    transition: .5s;
+}
+.faq-content h3{
+    padding-left: 40px;
+}
+.faq-content div{
+    padding-right: 40px;
+}
+.faq-content:hover{
+    background-color: rgb(122, 129, 136);
+}
+.faq-para{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+.bottom-input-submit{
+    position: relative;
+    left: 280px;
+    bottom: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50vh;
+}
+.qns{
+    position: relative;
+    left: 200px;
+    top: 55px;
+    font-weight: 200;
+}
+.links{
+    display: flex;
+    /* width: 1100px; */
+    position: relative;
+    left: 200px;
+    column-gap: 200px;
+    top: 80px;
+    
+}
+.links-1{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+ul li a{
+    color: white;
+    font-weight: 200;
+}
+.bottom-lang{
+    position: relative;
+    left: 200px;
+    top: 130px;
+}
+.netflix-india{
+    position: relative;
+    left: 200px;
+    top: 160px;
+    font-weight: 200;
+}
